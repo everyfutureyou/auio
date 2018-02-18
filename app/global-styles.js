@@ -6,7 +6,7 @@ injectGlobal`
   body {
     height: 100%;
     width: 100%;
-    font-size:1.05em;
+    font-size:1.02em;
   }
 
   body {

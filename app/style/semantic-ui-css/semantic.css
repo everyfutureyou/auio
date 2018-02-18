@@ -656,7 +656,7 @@ a {
 }
 
 a:hover {
-  color: #1e70bf;
+  color: #34a3ae;
   text-decoration: none;
 }
 
@@ -13813,7 +13813,7 @@ a.ui.basic.black.label:hover {
 a.ui.basic.label:hover {
   text-decoration: none;
   background: none #FFFFFF;
-  color: #1e70bf;
+  color: #34a3ae;
   -webkit-box-shadow: 1px solid rgba(34, 36, 38, 0.15);
   box-shadow: 1px solid rgba(34, 36, 38, 0.15);
   -webkit-box-shadow: none;
@@ -14288,7 +14288,7 @@ ol.ui.list ol li,
 
 .ui.list .list > a.item:hover,
 .ui.list > a.item:hover {
-  color: #1e70bf;
+  color: #34a3ae;
 }
 
 /* Linked Item Icons */
@@ -14308,7 +14308,7 @@ ol.ui.list ol li,
 
 .ui.list .list > .item a.header:hover,
 .ui.list > .item a.header:hover {
-  color: #1e70bf !important;
+  color: #34a3ae !important;
 }
 
 /* Floated Content */
@@ -14484,7 +14484,7 @@ ol.ui.list ol li,
 
 .ui.inverted.list .list > a.item:hover,
 .ui.inverted.list > a.item:hover {
-  color: #1e70bf;
+  color: #34a3ae;
 }
 
 /* Linking Content */
@@ -14494,7 +14494,7 @@ ol.ui.list ol li,
 }
 
 .ui.inverted.list .item a:not(.ui):hover {
-  color: #1e70bf !important;
+  color: #34a3ae !important;
 }
 
 /*-------------------
@@ -17652,7 +17652,7 @@ ol.ui.horizontal.list li:before,
 }
 
 .ui.breadcrumb a:hover {
-  color: #1e70bf;
+  color: #34a3ae;
 }
 
 /* Icon Divider */
@@ -25996,7 +25996,7 @@ Floated Menu / Item
 
 .ui.cards > .card > .content > a.header:hover,
 .ui.card > .content > a.header:hover {
-  color: #1e70bf;
+  color: #34a3ae;
 }
 
 /* Meta */
@@ -26116,7 +26116,7 @@ Floated Menu / Item
 
 .ui.cards > .card > .extra a:not(.ui):hover,
 .ui.card > .extra a:not(.ui):hover {
-  color: #1e70bf;
+  color: #34a3ae;
 }
 
 /*******************************
@@ -26891,7 +26891,7 @@ a.ui.card:hover,
 }
 
 .ui.comments .comment a.author:hover {
-  color: #1e70bf;
+  color: #34a3ae;
 }
 
 /*--------------
@@ -27630,7 +27630,7 @@ a.ui.card:hover,
 }
 
 .ui.items > .item > .content > a.header:hover {
-  color: #1e70bf;
+  color: #34a3ae;
 }
 
 /* Meta */
@@ -27861,7 +27861,7 @@ a.ui.card:hover,
 
 .ui.items a.item:hover .content .header,
 .ui.link.items > .item:hover .content .header {
-  color: #1e70bf;
+  color: #34a3ae;
 }
 
 /*--------------

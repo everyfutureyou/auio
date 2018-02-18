@@ -7,7 +7,6 @@ import React from 'react';
 
 import MainMenu from '../../components/auio/menu';
 
-
 import Claim from '../../components/auio/claim';
 import About from '../../components/auio/about';
 import NewsletterModal from '../../components/auio/newsletter_modal';
@@ -32,10 +31,10 @@ export default class LandingPage extends React.Component { // eslint-disable-lin
     return (
       <div>
         <MainMenu />
-        <div className='container dark-bg'>
+        <div className='container dark-bg' id='top'>
           <Claim />
         </div>
-        <div className='container white-bg'>
+        <div className='container white-bg' id='about'>
           <About />
         </div>
         <div className="bar">
@@ -44,7 +43,7 @@ export default class LandingPage extends React.Component { // eslint-disable-lin
         <div className='container white-bg'>
           <Who />
         </div>
-        <div className='container yellow-bg brain'>
+        <div className='container yellow-bg brain' id='autismus'>
           <Autismus />
         </div>
         <div className='container white-bg'>
@@ -59,7 +58,7 @@ export default class LandingPage extends React.Component { // eslint-disable-lin
         <div className='container green-bg people'>
           <Support />
         </div>
-        <div className='container white-bg'>
+        <div className='container white-bg' id='contact'>
           <Contact />
           <Newsletter />
         </div>

@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import { ResponsiveImage, ResponsiveImageSize } from 'react-responsive-image';
 import LogoBunt from '../Brand/LogoC.png';
 
+
 const boxStyle = {
   margin: 20,
   padding: 100,

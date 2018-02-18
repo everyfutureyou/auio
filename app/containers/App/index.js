@@ -38,10 +38,9 @@ export default function App() {
         <meta name="description" content="A React.js Boilerplate application" />
       </Helmet>
       <Switch>
-        <Route exact path="/" component={HomePage} />
-        <Route path="/auio" component={LandingPage} />
-        <Route path="/features" component={FeaturePage} />
-        <Route path="" component={NotFoundPage} />
+        <Route exact path="/" component={LandingPage} />
+        <Route path="/impressum" component={FeaturePage} />
+        <Route path="" component={LandingPage} />
       </Switch>
     </AppWrapper>
   );

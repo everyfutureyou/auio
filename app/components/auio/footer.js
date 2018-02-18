@@ -28,7 +28,7 @@ export default class Footer extends Component {
   return(
     <div>
       <Grid verticalAlign='bottom'>
-        <Grid.Column className="boxStyle" floated='left' textAlign='center' mobile={16} tablet={8} computer={5}>
+        <Grid.Column className="boxStyle" floated='left' textAlign='center' only="computer" computer={5}>
       <ResponsiveImage className="img-responsive">
         <ResponsiveImageSize
         default
@@ -45,7 +45,7 @@ export default class Footer extends Component {
         />
       </ResponsiveImage>
       </Grid.Column>
-      <Grid.Column className="boxStyle" floated='right' textAlign='center' mobile={16} tablet={8} computer={5}>
+      <Grid.Column className="boxStyle" floated='right' textAlign='center' mobile={15} tablet={15} computer={5}>
       <Link to="/impressum"><Button inverted color='blue' fluid>Datenschutzrichtlinie</Button></Link>
       <Link to="/impressum"><Button style={buttonStyle} inverted color='blue' fluid>Impressum</Button></Link>
       </Grid.Column>
