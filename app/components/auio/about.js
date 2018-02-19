@@ -10,7 +10,7 @@ const About = () => (
         <h1>Videos über <span className="blue">Autismus</span> für alle!</h1>
         <p>Schön, dass Du dich für unser Projekt interessierst!</p>
         <p>AUIO ist eine Lernplattform für Menschen mit Autismus und deren Umfeld. Es ist unser Ziel die Lebensqualität von Menschen zu verbessern und dadurch Talente freizuschalten.</p>
-        <p>Das erreichen wir, indem wir mit niedrigschwelligen Videos über Autismus aufklären und praxisorientierte Hilfestellung bei Fragen in allen Lebensbereichen liefern – Alltag, Freundschaften, Familie, Selbstkompetenz und Zukunftsplanung.</p>
+        <p>Das erreichen wir, indem wir mit niedrigschwelligen Videos über Autismus aufklären und praxisorientierte Hilfestellung bei Fragen in allen Lebensbereichen liefern – Alltag, Familie, Freundschaften, Selbstkompetenz und Zukunftsplanung.</p>
         <Grid>
           <Grid.Column mobile={16} tablet={8} computer={8}>
             <div className="paperStyle">
