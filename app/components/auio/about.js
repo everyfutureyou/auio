@@ -1,7 +1,5 @@
 import React from 'react';
-import { Grid, List, Image } from 'semantic-ui-react';
-
-
+import { Grid, List } from 'semantic-ui-react';
 
 const About = () => (
   <div>
@@ -78,7 +76,7 @@ const About = () => (
             </div>
           </Grid.Column>
       </Grid>
-        </div>
+    </div>
   </div>
 );
 

@@ -23,21 +23,7 @@ export default class ImprintFooter extends Component {
     <div>
       <Grid verticalAlign='bottom'>
         <Grid.Column className="boxStyle" floated='left' textAlign='center' only="computer" computer={5}>
-      <ResponsiveImage className="img-responsive">
-        <ResponsiveImageSize
-        default
-        minWidth={0}
-        path={LogoBunt}
-        />
-        <ResponsiveImageSize
-        minWidth={768}
-        path={LogoBunt}
-        />
-        <ResponsiveImageSize
-        minWidth={1100}
-        path={LogoBunt}
-        />
-      </ResponsiveImage>
+      <img src={LogoBunt} className="img-responsive"/>
       </Grid.Column>
       <Grid.Column className="boxStyle" floated='right' textAlign='center' mobile={15} tablet={15} computer={5}>
       <Link to="/"><Button style={buttonStyle} inverted color='blue' fluid>AUIO</Button></Link>
