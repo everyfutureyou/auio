@@ -37,11 +37,18 @@ export default class Contact extends Component {
     <div className="paperStyle">
       <h2>Vor Ort in Kreuzberg</h2>
       <p>Du kannst auch einen Termin ausmachen und uns hier besuchen kommen:</p>
-      <p>AUIO<br/>
-      c/o UFER Berlin<br/>
-      Paul-Lincke-Ufer 41<br/>
-      (2. HH, 1.OG)<br/>
-      10999 Berlin Kreuzberg</p>
+      <List>
+      <List.Item>
+        <List.Icon><i className="material-icons">home</i></List.Icon>
+        <List.Content>
+        <p>AUIO<br/>
+        c/o UFER Berlin<br/>
+        Paul-Lincke-Ufer 41<br/>
+        (2. HH, 1. OG)<br/>
+        10999 Berlin Kreuzberg</p>
+        </List.Content>
+      </List.Item>
+    </List>
     </div>
   </div>
 )};
