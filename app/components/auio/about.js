@@ -1,6 +1,5 @@
 import React from 'react';
-import { Grid, Image } from 'semantic-ui-react';
-import { List } from 'semantic-ui-react';
+import { Grid, List, Image } from 'semantic-ui-react';
 
 
 

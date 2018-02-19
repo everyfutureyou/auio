@@ -1,5 +1,4 @@
-import React, {Component} from 'react';
-import { ResponsiveImage, ResponsiveImageSize } from 'react-responsive-image';
+import React, { Component } from 'react';
 import LogoBunt from '../Brand/LogoC.png';
 
 
@@ -9,10 +8,6 @@ const boxStyle = {
   fontFamily: 'Joanna Sans W01 Light',
   color: 'whitesmoke',
   textAlign: 'center'
-};
-
-const imgStyle = {
-  width:'200'
 };
 
 

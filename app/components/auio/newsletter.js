@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
-import Paper from 'material-ui/Paper';
 import { Link } from 'react-router-dom';
 import MailForm from './mailform';
-import ModalExampleCloseIcon from './newsletter_modal';
+import NewsletterModal from './newsletter_modal';
 
 export default class Newsletter extends Component {
   render() {

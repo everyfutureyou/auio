@@ -1,8 +1,6 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { Grid, Image } from 'semantic-ui-react';
-import { ResponsiveImage, ResponsiveImageSize } from 'react-responsive-image';
-import { Button } from 'semantic-ui-react';
+import { Grid, Image, Button } from 'semantic-ui-react';
 import LogoBunt from '../Brand/LogoC.png';
 
 
