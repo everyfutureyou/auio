@@ -16,9 +16,9 @@ export default class NewsletterModal extends Component {
     <div>
     <h1 onClick={this.show('blurring')}>Newsletter bestellen</h1>
   <Modal closeIcon dimmer={dimmer} open={open} onClose={this.close}>
-    <Header className="akko" icon='mail' content='Newsletter bestellen' />
+    <Header className="akko" icon='mail' content='Newsletter' />
     <Modal.Content>
-      <p>Wir werden deine Emailadresse nur verwenden, um dich auf dem Laufenden zu halten und nicht weitergeben.</p>
+      <p>Interessierst Du Dich für das Projekt? Dann trage Deine Emailadresse in den Newsletter ein und Du bleibst stets informiert.</p>
       <MailForm />
     </Modal.Content>
   </Modal>

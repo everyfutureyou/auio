@@ -1,15 +1,13 @@
 import React, {Component} from 'react';
 import { Grid, Image } from 'semantic-ui-react';
 
-const style = {
-  marginTop: 300
-};
+
 
 export default class Autismus extends Component {
   render() {
   return(
   <div>
-    <div className="paperStyle" style={style} id="Autismus">
+    <div className="paperStyle" id="Autismus">
       <h1>Was ist Autismus?</h1>
       <p>Es gibt viele unterschiedliche Wege zu erklären, was Autismus ist. Das autistische Gehirn verarbeitet Wahrnehmungen etwas anders, was zu Besonderheiten führt, die manchmal von außen sichtbar sind, oft aber auch unsichtbar bleiben.</p>
       <Grid verticalAlign='middle' columns={3} centered>

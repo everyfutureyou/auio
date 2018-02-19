@@ -16,7 +16,9 @@ export default class BrandAUIO extends Component {
   render() {
     return (
       <div className='brand'>
+        <div>
           <img src={LogoBunt}/>AUIO<span className='dot'>.TV</span>
+        </div>
       </div>
     );
   }

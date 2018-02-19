@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import { Grid, Image } from 'semantic-ui-react';
 
 const style = {
-  marginTop: 400,
   textAlign:'center'
 };
 

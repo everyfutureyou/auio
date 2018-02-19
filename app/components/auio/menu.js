@@ -12,10 +12,6 @@ const style = {
   boxShadow: '5px 5px 15px #4040474d'
 };
 
-const linkStyle = {
-  color: 'white'
-}
-
 
 export default class MainMenu extends Component {
   render() {
@@ -24,25 +20,29 @@ export default class MainMenu extends Component {
       <div>
       <Grid>
         <Grid.Column mobile={12} tablet={12} computer={5}>
-            <BrandAUIO onClick={() => scrollToComponent(document.getElementById("top"), { offset: -80, align: 'top', duration: 1500})}/>
+          <div onClick={() => scrollToComponent(document.getElementById("top"), { offset: -80, align: 'top', duration: 1500})}>
+            <BrandAUIO/>
+          </div>
         </Grid.Column>
-        <Grid.Column only="computer" computer={11}>
+        <Grid.Column only="computer" floated='right' computer={11}>
           <div className="menu">
             <div className='menu-list'>
-              <div style={linkStyle} onClick={() => scrollToComponent(document.getElementById("about"), { offset: -80, align: 'top', duration: 1500})}>
+            <div onClick={() => scrollToComponent(document.getElementById("contact"), { offset: -80, align: 'top', duration: 1500})}>
+                Kontakt
+            </div>
+            <div onClick={() => scrollToComponent(document.getElementById("autismus"), { offset: 0, align: 'top', duration: 1500})}>
+                Was ist <span className='yellow'>Autismus?</span>
+            </div>
+              <div onClick={() => scrollToComponent(document.getElementById("about"), { offset: -80, align: 'top', duration: 1500})}>
                   Über das <span className='green'>Projekt!</span>
               </div>
-              <div style={linkStyle} onClick={() => scrollToComponent(document.getElementById("autismus"), { offset: 0, align: 'top', duration: 1500})}>
-                  Was ist <span className='yellow'>Autismus?</span>
-              </div>
-              <div style={linkStyle} onClick={() => scrollToComponent(document.getElementById("contact"), { offset: -80, align: 'top', duration: 1500})}>
-                  Kontakt
-              </div>
+
+
             </div>
           </div>
         </Grid.Column>
        <Grid.Column only="tablet mobile"  tablet={4} mobile={4} textAlign='right'>
-          <div style={linkStyle} className="menu_bar">
+          <div className="menu_bar">
             <MobileMenu />
           </div>
         </Grid.Column>

@@ -15,7 +15,7 @@ import '../../style/semantic-ui-css/semantic.css';
 import '../../style/style.css';
 
 import HomePage from 'containers/HomePage/Loadable';
-import FeaturePage from 'containers/FeaturePage/Loadable';
+import Impressum from 'containers/Impressum/Loadable';
 import LandingPage from 'containers/LandingPage/Loadable';
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
 
@@ -35,11 +35,11 @@ export default function App() {
         titleTemplate="%s - AUIO.tv"
         defaultTitle="AUIO.tv – Autismus-Lernplattform"
       >
-        <meta name="description" content="A React.js Boilerplate application" />
+        <meta name="description" content="AUIO ist eine Video-Lernplattform für Menschen mit Autismus und deren Umfeld. Es ist unser Ziel die Lebensqualität von Menschen zu verbessern und dadurch Talente freizuschalten." />
       </Helmet>
       <Switch>
-        <Route exact path="/" component={LandingPage} />
-        <Route path="/impressum" component={FeaturePage} />
+        <Route path="/impressum" component={Impressum} />
+        <Route path="/" component={LandingPage} />
         <Route path="" component={LandingPage} />
       </Switch>
     </AppWrapper>

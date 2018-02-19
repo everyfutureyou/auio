@@ -5,8 +5,7 @@ import LogoBunt from '../Brand/LogoC.png';
 
 const boxStyle = {
   margin: 20,
-  padding: 100,
-  paddingBottom: 50,
+  padding: 30,
   fontFamily: 'Joanna Sans W01 Light',
   color: 'whitesmoke',
   textAlign: 'center'
