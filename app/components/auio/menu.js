@@ -5,19 +5,18 @@ import scrollToComponent from 'react-scroll-to-component';
 import BrandAUIO from '../Brand/brand';
 import MobileMenu from './menu_modal';
 
-const style = {
+const headroomStyle = {
   background: '#404047',
   height: 140,
   fontFamily: 'Akko W01 Bold',
   boxShadow: '5px 5px 15px #4040474d',
 };
 
-
 export default class MainMenu extends Component {
   render() {
     return (
-      <Headroom style={style}>
-        <div>
+      <div>
+        <Headroom style={headroomStyle}>
           <Grid>
 
             <Grid.Column mobile={12} tablet={12} computer={5}>
@@ -49,8 +48,8 @@ export default class MainMenu extends Component {
             </Grid.Column>
 
           </Grid>
-        </div>
-      </Headroom>
+        </Headroom>
+      </div>
     );
   }
 }

@@ -319,6 +319,10 @@ img { max-width: 100%; }
   padding-top: 16vw;
 }
 
+.ui.grid {
+  margin: 0; /* to prevent menu modal creating extra gutter on right side (on tablet and mobile) */
+}
+
 /********************************************************************************/
 /* media queries for responsiveness */
 
