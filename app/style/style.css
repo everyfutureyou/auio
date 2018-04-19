@@ -325,17 +325,36 @@ img { max-width: 100%; }
 /* Extra small devices (phones, less than 768px) */
   /* No media query since this is the default in Bootstrap */
   .menu-icon { visibility: visible; }
-
 /* Small devices (tablets, 768px and up) */
 @media (min-width: @screen-sm-min) { }
-
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: @screen-md-min) {
   .menu-list { visibility: visible; }
   .menu-icon { visibility: hidden; }
 }
-
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: @screen-lg-min) { }
+
+
+/* custom responsive styles */
+@media (max-width: 499px) {
+  .boxStyle .paperStyle {
+    margin: 0 -15px 0 -15px;
+    padding: 15px;
+  }
+  .paperStyle .paperStyle {
+    padding: 10px;
+    padding-bottom: 15px;
+  }
+}
+@media (max-width: 374px) {
+  .boxStyle {
+    margin: 0;
+  }
+  .paperStyle .paperStyle {
+    padding: 10px;
+    padding-bottom: 15px;
+  }
+}
 
 /********************************************************************************/
