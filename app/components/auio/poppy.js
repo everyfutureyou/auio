@@ -6,12 +6,10 @@ import MenuItem from 'material-ui/MenuItem';
 
 export default class PopoverExampleSimple extends React.Component {
 
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
 
-    this.state = {
-      open: false
-    };
+    this.state = { open: false };
   }
 
   handleClick = (event) => {
@@ -20,14 +18,12 @@ export default class PopoverExampleSimple extends React.Component {
 
     this.setState({
       open: true,
-      anchorEl: event.currentTarget
+      anchorEl: event.currentTarget,
     });
   };
 
   handleRequestClose = () => {
-    this.setState({
-      open: false
-    });
+    this.setState({ open: false });
   };
 
   render() {
@@ -40,8 +36,8 @@ export default class PopoverExampleSimple extends React.Component {
         <Popover
           open={this.state.open}
           anchorEl={this.state.anchorEl}
-          anchorOrigin={{horizontal: 'left', vertical: 'bottom'}}
-          targetOrigin={{horizontal: 'left', vertical: 'top'}}
+          anchorOrigin={{ horizontal: 'left', vertical: 'bottom' }}
+          targetOrigin={{ horizontal: 'left', vertical: 'top' }}
           onRequestClose={this.handleRequestClose}
         >
           <Menu>
