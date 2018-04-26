@@ -1,23 +1,23 @@
 import React, { Component } from 'react';
-import LogoBunt from './LogoC.png';
+import LogoBunt from './LogoC.svg';
 
-const style = {
-  background:'#404047',
-  height:140,
+const style = { // unused
+  background: '#404047',
+  height: 140,
   fontFamily: 'Akko W01 Bold',
-  boxShadow: '5px 5px 15px #4040474d'
+  boxShadow: '5px 5px 15px #4040474d',
 };
 
-const linkStyle = {
-  color: 'white'
-}
+const linkStyle = { // unused
+  color: 'white',
+};
 
 export default class BrandAUIO extends Component {
   render() {
     return (
-      <div className='brand'>
+      <div className="brand">
         <div>
-          <img src={LogoBunt}/>AUIO<span className='dot'>.TV</span>
+          <img src={LogoBunt} alt="" />AUIO<span className="dot">.TV</span>
         </div>
       </div>
     );

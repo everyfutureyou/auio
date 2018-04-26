@@ -138,9 +138,9 @@ p {
   padding-bottom: 8em;
 }
 
-.yellow { color:#e2b069; }
-.green { color:#60bc7d; }
-.blue { color:#34a3ae; }
+.yellow { color: #e2b069; }
+.green { color: #60bc7d; }
+.blue { color: #34a3ae; }
 .white-bg { background-color: whitesmoke; }
 .yellow-bg { background-color: #e2b069; }
 .green-bg { background-color: #60bc7d; }
@@ -148,7 +148,9 @@ p {
 .dark-bg { background-color: #404047; }
 .dark-bg h1 { color: white; }
 
-.img-responsive img { max-width: 100%; }
+.img-responsive {
+  max-width: 80%;
+}
 
 .newsletter {
   float: right;
@@ -245,6 +247,19 @@ p {
 .menu-mobile div div:hover, .menu div div:hover, .brand div:hover {
   opacity: 0.7;
   color: white;
+}
+
+.claim {
+  margin: 20px;
+  padding: 30px;
+  font-family: 'Joanna Sans W01 Light';
+  color: whitesmoke;
+  text-align: center;
+}
+
+.claimLogo {
+  max-width: 70vw;
+  max-height: 60vh;
 }
 
 .boxStyle {

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Button, Grid } from 'semantic-ui-react';
-import LogoBunt from '../Brand/LogoC.png';
+import LogoBunt from '../Brand/LogoC.svg';
 
 
 const style = { // unused
