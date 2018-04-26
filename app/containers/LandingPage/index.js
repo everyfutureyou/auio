@@ -9,6 +9,7 @@ import MainMenu from '../../components/auio/menu';
 
 import Claim from '../../components/auio/claim';
 import About from '../../components/auio/about';
+import Events from '../../components/auio/events';
 import NewsletterModal from '../../components/auio/newsletter_modal';
 import Who from '../../components/auio/who';
 import Autismus from '../../components/auio/autismus';
@@ -42,6 +43,12 @@ export default class LandingPage extends React.Component { // eslint-disable-lin
         </div>
         <div className='container white-bg'>
           <Who />
+        </div>
+        <div className="bar">
+          <h1>AUIO Events</h1>
+        </div>
+        <div className='container white-bg'>
+          <Events />
         </div>
         <div className='container yellow-bg brain' id='autismus'>
           <Autismus />
