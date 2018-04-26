@@ -17,7 +17,7 @@ export default class Who extends Component {
         <p>Menschen, die sich selbst und andere besser verstehen möchten.</p>
 
         <h2>AUIO.pro – Profis</h2>
-        <p>Menschen, die professionell Verantwortung für Andere übernehmen.</p>
+        <p>Menschen, die professionell Verantwortung für andere übernehmen.</p>
       </div>
     );
   }
