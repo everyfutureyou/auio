@@ -43,10 +43,10 @@ export default class Contact extends Component {
               <List.Icon><i className="material-icons">home</i></List.Icon>
               <List.Content>
                 <p>AUIO<br />
-                  c/o UFER Berlin<br />
-                  Paul-Lincke-Ufer 41<br />
-                  (2. HH, 1. OG)<br />
-                  10999 Berlin Kreuzberg
+                  c/o Diversicon<br />
+                  Oranienstraße 183<br />
+                  (3. Hinterhof, Aufgang C)<br />
+                  10999 Berlin-Kreuzberg
                 </p>
               </List.Content>
             </List.Item>
