@@ -8,7 +8,7 @@ export default class Contact extends Component {
 
         <div className="paperStyle">
           <h1>Kontakt</h1>
-          <p>Du kannst uns anrufen oder eine Email schreiben. Wenn du dieses Projekt spannend findest, freuen wir uns, Dich kennenzulernen!</p>
+          <p>Du kannst uns anrufen oder eine Email schreiben. Wenn Du dieses Projekt spannend findest, freuen wir uns, Dich kennenzulernen!</p>
           <List>
             <List.Item>
               <List.Icon><i className="material-icons">accessibility</i></List.Icon>

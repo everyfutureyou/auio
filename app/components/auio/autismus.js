@@ -13,7 +13,7 @@ export default class Autismus extends Component {
             <Grid.Column mobile={16} tablet={8} computer={5}>
               <div className="paperStyle">
                 <h2>Wahrnehmung</h2>
-                <p>Höhere Sensibilität einzelner oder mehrerer Sinne</p>
+                <p>Höhere oder niedrigere Sensibilität einzelner oder mehrerer Sinne</p>
               </div>
             </Grid.Column>
             <Grid.Column mobile={16} tablet={8} computer={5}>
