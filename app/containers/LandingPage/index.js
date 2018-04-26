@@ -45,8 +45,7 @@ export default class LandingPage extends React.Component { // eslint-disable-lin
           <Who />
         </div>
         <div className="bar">
-          <h1>AUIO.pro</h1>
-          <p>Video-Fortbildung und Netzwerk für alle, die beruflich mit Autismus zu tun haben.</p>
+          <h1>AUIO Events</h1>
         </div>
         <div className='container white-bg'>
           <Events />

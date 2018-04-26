@@ -5,7 +5,7 @@ export default class Events extends Component {
   render() {
     return (
       <div className="boxStyle">
-        <h1>Event mit <span className="green">AUIO</span></h1>
+        <h1>Kalender</h1>
         <p>Wir freuen uns, bei folgenden Events im Programm zu sein.</p>
 
         <h2>Z2X³</h2>
