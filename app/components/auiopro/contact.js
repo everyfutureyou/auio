@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { List } from 'semantic-ui-react';
-import { Link } from 'react-router-dom';
 import { Button } from 'semantic-ui-react';
+import { Link } from 'react-router-dom';
 
 const buttonStyle = {
   marginTop: 10,
-  background: '#34a3ae',
+  background: '#0DB68B',
   color: 'white',
 };
 
@@ -16,11 +16,11 @@ export default class Contact extends Component {
 
         <div className="paperStyle">
           <h1>Kontakt</h1>
-          <p>Du kannst uns anrufen oder eine Email schreiben. Wenn Du dieses Projekt spannend findest, freuen wir uns, Dich kennenzulernen!</p>
+          <p>Sie können uns anrufen oder eine Email schreiben. Wenn Sie dieses Projekt spannend finden, freuen wir uns, Sie kennenzulernen!</p>
           <List>
             <List.Item>
               <List.Icon><i className="material-icons">accessibility</i></List.Icon>
-              <List.Content>Dein Ansprechpartner: Jan-Frederik Metje</List.Content>
+              <List.Content>Ihr Ansprechpartner: Jan-Frederik Metje</List.Content>
             </List.Item>
             <List.Item>
               <List.Icon><i className="material-icons">call</i></List.Icon>
@@ -45,7 +45,7 @@ export default class Contact extends Component {
 
         <div className="paperStyle">
           <h2>Vor Ort in Kreuzberg</h2>
-          <p>Du kannst auch einen Termin ausmachen und uns hier besuchen kommen:</p>
+          <p>Sie können auch einen Termin ausmachen und uns hier besuchen kommen:</p>
           <List>
             <List.Item>
               <List.Icon><i className="material-icons">home</i></List.Icon>
@@ -61,9 +61,9 @@ export default class Contact extends Component {
           </List>
         </div>
         <div className="paperStyle">
-          <h2>AUIO für Profis</h2>
-          <p>AUIO.pro ist die digitale Weiterbildungsplattform zum Thema Autismus-Spektrum für alle, die professionell Verantwortung für andere Menschen übernehmen – in Schulen und Kindergärten, Firmen, sowie in Vereinen und bei sozialen Trägern.</p>
-          <Link to="/pro"><Button style={buttonStyle}>Zu AUIO.pro</Button></Link>
+          <h2>AUIO für alle</h2>
+          <p>Mit AUIO.tv klären wir die Öffentlichkeit über Autismus auf. Autistische Menschen und deren Freunde und Familie können durch niedrigschwellige Videos lernen, sich gegenseitig besser zu verstehen.</p>
+          <Link to="/"><Button style={buttonStyle}>Zu AUIO.tv</Button></Link>
         </div>
 
       </div>

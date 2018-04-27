@@ -17,6 +17,7 @@ import '../../style/style.css';
 import HomePage from 'containers/HomePage/Loadable';
 import Impressum from 'containers/Impressum/Loadable';
 import LandingPage from 'containers/LandingPage/Loadable';
+import ProPage from 'containers/ProPage/Loadable';
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
 
 const AppWrapper = styled.div`
@@ -39,6 +40,7 @@ export default function App() {
       </Helmet>
       <Switch>
         <Route path="/impressum" component={Impressum} />
+        <Route path="/pro" component={ProPage} />
         <Route path="/" component={LandingPage} />
         <Route path="" component={LandingPage} />
       </Switch>

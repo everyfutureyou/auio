@@ -4,15 +4,14 @@ import { Grid, List } from 'semantic-ui-react';
 const About = () => (
   <div>
     <div className="boxStyle">
-      <h1>Videos über <span className="blue">Autismus</span> für alle!</h1>
-      <p>Schön, dass Du dich für unser Projekt interessierst!</p>
-      <p>AUIO.tv ist eine Video-Lernplattform für Menschen im Autismus-Spektrum und deren Umfeld. Es ist unser Ziel, die Lebensqualität von Menschen zu verbessern und dadurch Talente freizuschalten.</p>
-      <p>Das erreichen wir, indem wir mit niedrigschwelligen Videos über Autismus aufklären und praxisorientierte Hilfestellung bei Fragen in allen Lebensbereichen liefern – Alltag, Familie, Freundschaften, Selbstkompetenz und Zukunftsplanung.</p>
+      <h1>Video-<span className="mint">Weiterbildung</span> zu Autismus</h1>
+      <p>AUIO.pro ist die digitale Weiterbildungsplattform zum Thema Autismus-Spektrum für alle, die professionell Verantwortung für andere Menschen übernehmen – in Schulen und Kindergärten, Firmen, sowie in Vereinen und bei sozialen Trägern.</p>
+      <p>Kurzweilige Videos auf einer speziell dafür entwickelten Plattform liefern praxisorientierte Hilfestellung und Erklärungen – auch für tiefergehende Herausforderungen im beruflichen Alltag. Ein Forum im eigenen sozialen Netzwerk schafft Raum für gegenseitigen Austausch und vermittelt Kontakte vor Ort.</p>
 
       <Grid>
         <Grid.Column mobile={16} tablet={8} computer={8}>
           <div className="paperStyle">
-            <h2>Unsere <span className="green">Mission</span></h2>
+            <h2>Unsere Mission</h2>
             <List className="list">
               <List.Item>
                 <List.Icon><i className="material-icons">cached</i></List.Icon>
@@ -51,7 +50,7 @@ const About = () => (
         </Grid.Column>
         <Grid.Column mobile={16} tablet={8} computer={8}>
           <div className="paperStyle">
-            <h2>Unsere <span className="blue">Methode</span></h2>
+            <h2>Unsere Methode</h2>
             <List className="list">
               <List.Item>
                 <List.Icon><i className="material-icons">video_library</i></List.Icon>
@@ -81,7 +80,6 @@ const About = () => (
           </div>
         </Grid.Column>
       </Grid>
-
     </div>
   </div>
 );

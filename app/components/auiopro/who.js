@@ -1,12 +1,4 @@
 import React, { Component } from 'react';
-import { Button } from 'semantic-ui-react';
-import { Link } from 'react-router-dom';
-
-const buttonStyle = {
-  marginTop: 10,
-  background: '#34a3ae',
-  color: 'white',
-};
 
 export default class Who extends Component {
   render() {
@@ -25,8 +17,7 @@ export default class Who extends Component {
         <p>Menschen, die sich selbst und andere besser verstehen möchten.</p>
 
         <h2>AUIO.pro – Profis</h2>
-        <p>Menschen, die professionell Verantwortung für andere übernehmen.</p>
-        <Link to="/pro"><Button style={buttonStyle}>Zu AUIO.pro</Button></Link>
+        <p>Menschen, die professionell Verantwortung für Andere übernehmen.</p>
       </div>
     );
   }

@@ -141,10 +141,12 @@ p {
 .yellow { color: #e2b069; }
 .green { color: #60bc7d; }
 .blue { color: #34a3ae; }
+.mint { color: #0DB68B; }
 .white-bg { background-color: whitesmoke; }
 .yellow-bg { background-color: #e2b069; }
 .green-bg { background-color: #60bc7d; }
 .blue-bg { background-color: #34a3ae; }
+.mint-bg { background-color: #0DB68B; }
 .dark-bg { background-color: #404047; }
 .dark-bg h1 { color: white; }
 
