@@ -26,10 +26,12 @@ export default class Imprint extends Component {
                 <List.Item>
                   <List.Icon><i className="material-icons">home</i></List.Icon>
                   <List.Content>
-                    <p>AUIO c/o UFER Berlin<br />
-                      Paul-Lincke-Ufer 41<br />
-                      10999 Berlin Kreuzberg
-                    </p>
+                  <p>AUIO<br />
+                    c/o Diversicon<br />
+                    Oranienstraße 183<br />
+                    (3. Hinterhof, Aufgang C)<br />
+                    10999 Berlin-Kreuzberg
+                  </p>
                   </List.Content>
                 </List.Item>
               </List>
