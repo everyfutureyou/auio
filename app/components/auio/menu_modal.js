@@ -35,6 +35,9 @@ export default class NewsletterModal extends Component {
                 <div onClick={() => scrollToComponent(document.getElementById('autismus'), { offset: -80, align: 'top', duration: 1500 })}>
                   Was ist <span className="yellow">Autismus?</span>
                 </div>
+                <div onClick={() => scrollToComponent(document.getElementById('autismus'), { offset: -80, align: 'top', duration: 1500 })}>
+                  Events
+                </div>
                 <div onClick={() => scrollToComponent(document.getElementById('contact'), { offset: -80, align: 'top', duration: 1500 })}>
                   Kontakt
                 </div>

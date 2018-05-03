@@ -32,11 +32,14 @@ export default class MainMenu extends Component {
                   <div onClick={() => scrollToComponent(document.getElementById('contact'), { offset: -80, align: 'top', duration: 1500 })}>
                     Kontakt
                   </div>
+                  <div onClick={() => scrollToComponent(document.getElementById('events'), { offset: -80, align: 'top', duration: 1500 })}>
+                    <i className="material-icons">person_pin</i>
+                  </div>
                   <div onClick={() => scrollToComponent(document.getElementById('autismus'), { offset: 0, align: 'top', duration: 1500 })}>
-                    Was ist <span className="yellow">Autismus?</span>
+                    Was ist <span className="green">Autismus?</span>
                   </div>
                   <div onClick={() => scrollToComponent(document.getElementById('about'), { offset: -80, align: 'top', duration: 1500 })}>
-                    Über das <span className="green">Projekt!</span>
+                    Über das <span className="yellow">Projekt!</span>
                   </div>
                 </div>
               </div>

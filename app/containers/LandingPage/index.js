@@ -44,12 +44,6 @@ export default class LandingPage extends React.Component { // eslint-disable-lin
         <div className='container white-bg'>
           <Who />
         </div>
-        <div className="bar">
-          <h1>AUIO Events</h1>
-        </div>
-        <div className='container white-bg'>
-          <Events />
-        </div>
         <div className='container yellow-bg brain' id='autismus'>
           <Autismus />
         </div>
@@ -61,6 +55,9 @@ export default class LandingPage extends React.Component { // eslint-disable-lin
         </div>
         <div className='container white-bg'>
           <Motivation />
+        </div>
+        <div className='container yellow-bg' id='events'>
+          <Events />
         </div>
         <div className='container green-bg people'>
           <Support />

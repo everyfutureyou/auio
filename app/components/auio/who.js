@@ -13,10 +13,10 @@ export default class Who extends Component {
         <h2>Freunde und Familie</h2>
         <p>Beziehungen, Bekanntschaften, Eltern, Geschwister usw.</p>
 
-        <h2>Wegbegleiter</h2>
-        <p>in Schule, Ausbildung, Studium und Beruf.</p>
+        <h2>Neugierige</h2>
+        <p>Menschen, die sich selbst und andere besser verstehen möchten.</p>
 
-        <h2>AUIO.pro – Profis & Neugierige</h2>
+        <h2>AUIO.pro – Profis</h2>
         <p>Menschen, die professionell Verantwortung für Andere übernehmen.</p>
       </div>
     );
