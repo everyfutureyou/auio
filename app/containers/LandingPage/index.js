@@ -50,9 +50,6 @@ export default class LandingPage extends React.Component { // eslint-disable-lin
         <div className='container white-bg'>
           <Topics />
         </div>
-        <div className="bar link">
-          <NewsletterModal />
-        </div>
         <div className='container white-bg'>
           <Motivation />
         </div>
@@ -64,7 +61,6 @@ export default class LandingPage extends React.Component { // eslint-disable-lin
         </div>
         <div className='container white-bg' id='contact'>
           <Contact />
-          <Newsletter />
         </div>
         <div className='dark-bg'>
           <Footer className="dark-bg"/>
